@@ -34,7 +34,7 @@ func reversePrint(head *ListNode) []int {
 
 补充知识：
 
-Go 语言数组
+## Go 语言数组
 
 Go语言提供了数组类型的数据结构。
 
@@ -45,3 +45,18 @@ Go语言提供了数组类型的数据结构。
 数组元素可以通过索引(位置)来读取(或者修改)，索引从 0 开始，第二个索引为 1 ，依次类推。
 
 ![test](https://www.runoob.com/wp-content/uploads/2015/06/goarray.png "GO 语言数组")
+
+### 声明数组
+Go 语言数组声明需要指定元素类型及元素个数，语法格式如下：
+
+```
+var variable_name [size] varaible_type
+```
+以上为一维数组的定义方式，例如以下定义了数组 balance 长度为 10 类型为 float32:
+```
+var balance [10] float32
+```
+
+### 初始化数组
+ 以下演示了数组初始化：
+ 
