@@ -5,12 +5,19 @@
 示例:
 
 MinStack minStack = new MinStack();
+
 minStack.push(-2);
+
 minStack.push(0);
+
 minStack.push(-3);
+
 minStack.min();   --> 返回 -3.
+
 minStack.pop();
+
 minStack.top();      --> 返回 0.
+
 minStack.min();   --> 返回 -2.
  
 
