@@ -44,4 +44,4 @@ Go语言提供了数组类型的数据结构。
 
 数组元素可以通过索引(位置)来读取(或者修改)，索引从 0 开始，第二个索引为 1 ，依次类推。
 
-!["GO 语言数组"](https://www.runoob.com/wp-content/uploads/2015/06/goarray.png "GO 语言数组")
+![test](https://www.runoob.com/wp-content/uploads/2015/06/goarray.png "GO 语言数组")
