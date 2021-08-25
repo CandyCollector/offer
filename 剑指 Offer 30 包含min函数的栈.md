@@ -16,7 +16,7 @@ minStack.min();   --> 返回 -3.
 
 minStack.pop();
 
-minStack.top();      --> 返回 0.
+minStack.top();   --> 返回 0.
 
 minStack.min();   --> 返回 -2.
  
@@ -95,6 +95,7 @@ func (this *MinStack) Min() int {
 解题思路：
 
 普通栈的 push() 和 pop() 函数的复杂度为 O(1)O(1) ；而获取栈最小值 min() 函数需要遍历整个栈，复杂度为 O(N)O(N) 。
+
 
 本题难点： 将 min() 函数复杂度降为 O(1)O(1) ，可通过建立辅助栈实现；
 
