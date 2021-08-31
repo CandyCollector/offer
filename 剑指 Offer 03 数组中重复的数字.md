@@ -22,6 +22,17 @@
 
 ```
 func findRepeatNumber(nums []int) int {
+    repeat int[len(nums)-1] = {0};
+    for _,s := range nums{
+        repeat[s]++;
+        if(repeat[s] > 1){
+            return s
+        }
+    }
+    return -1
 
 }
 ```
+
+### 解题思路
+因为 nums 里的所有数字都在 0~n-1 的范围里，我们可以将数组对应下标认为数组，下标中寸的数字为数组出现次数，当数组中的数值大于 1 时，退出遍历
