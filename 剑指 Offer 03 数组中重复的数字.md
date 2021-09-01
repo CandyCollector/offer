@@ -22,15 +22,14 @@
 
 ```
 func findRepeatNumber(nums []int) int {
-    repeat int[len(nums)-1] = {0};
-    for _,s := range nums{
-        repeat[s]++;
-        if(repeat[s] > 1){
-            return s
-        }
-    }
-    return -1
-
+	repeat := make([]int, len(nums))
+	for _, s := range nums {
+		repeat[s]++
+		if repeat[s] > 1 {
+			return s
+		}
+	}
+	return -1
 }
 ```
 
